@@ -28,6 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: #C45529;
 }
 
 header h1 {
@@ -129,6 +130,26 @@ header nav ul li a {
 
 .secondary-projects {
     padding: 0 10px;
+}
+
+.calculator a {
+    background-image: url(../assets/images/calculator-stock_adobespark.jpg);
+    width: 40%;
+    height: 200px;
+    display: flex;
+    padding: 10px;
+}
+
+.horiseon a {
+    background-image: url(../assets/images/digital-marketing-meeting-smaller_adobespark.jpg);
+    width: 40%;
+    height: 200px;
+    display: flex;
+    padding: 10px;
+}
+
+.image-title {
+    
 }
 
 .main-project a{
