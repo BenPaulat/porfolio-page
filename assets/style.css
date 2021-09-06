@@ -7,6 +7,12 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    max-width: 1024px;
+}
+
+.section-heading {
+    border-right: 5px solid teal;
+    min-width: 60px;
 }
 
 /* Header Styles */
@@ -57,7 +63,47 @@ header nav ul li a {
 }
 
 /* About Me Styles */
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px
+}
 
-/* My Work Styels */
+.about-me h3 {
+    width: 15%;
+}
+
+.about-me-description {
+    display: flex;
+    width: 85%;
+}
+
+.about-me-description img {
+    min-width: 200px;
+    min-height: 150px;
+    padding: 0 20px 0 20px;
+}
+
+/* My Work Styles */
+.my-work {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px
+}
+
+.my-work h3 {
+    width: 15%;
+}
+
+.my-work-images {
+    display: flex;
+    width: 85%;
+    padding: 0 20px;
+    flex-direction: column;
+}
+
+.secondary-projects {
+    padding: 0 10px;
+}
 
 /* Contact Me Styles */
