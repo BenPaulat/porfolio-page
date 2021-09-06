@@ -8,7 +8,7 @@ A portfolio of my web development projects
 * CSS
 
 ## Website
-
+https://benpaulat.github.io/portfolio-page/
 
 ## Screenshot
 
