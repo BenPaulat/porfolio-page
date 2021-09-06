@@ -10,8 +10,5 @@ A portfolio of my web development projects
 ## Website
 https://benpaulat.github.io/portfolio-page/
 
-## Screenshot
-
-
 ## Contribution
 Made with 😅 by Ben Paulat
