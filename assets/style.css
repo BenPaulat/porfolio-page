@@ -8,10 +8,11 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
     max-width: 1024px;
+    background-color: #606973;
 }
 
 .section-heading {
-    border-right: 5px solid teal;
+    border-right: 5px solid #C45529;
     min-width: 60px;
 }
 
@@ -57,9 +58,16 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    color:violet;
-    background-image: url(../assets/images/portfolio-hero.jpg);
+    color: rgb(211, 125, 55);
+    background-image: url(../assets/images/hero-picture-brick-wall.jpg);
     height: 200px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.hero div h2 {
+    float: left;
 }
 
 /* About Me Styles */
@@ -107,3 +115,17 @@ header nav ul li a {
 }
 
 /* Contact Me Styles */
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px
+}
+
+.contact-me h3 {
+    width: 15%;
+}
+
+.contact-me div {
+    padding: 0 20px;
+    width: 20%;
+}
